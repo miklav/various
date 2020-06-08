@@ -1,7 +1,7 @@
 <renderingStyle name="Touring-view-ML.render" depends="default" defaultColor="#f1eae4" version="1">
 
 	<!--
-	Updated by Mikhail Lavrenov 2020-Jun-07 for Cobblestone [and to be added Sett] surfaces
+	Updated by Mikhail Lavrenov 2020-Jun-07 for Cobblestone and Sett surfaces
 	TOURING VIEW Renderer by Hardy Mueller, 2012-10-28 (Advanced version of the previous All-Purpose Renderer)
 		Differences of the "Touring View" vs. the "Default" Renderer:
 		In Touring View:
@@ -1154,6 +1154,9 @@
 		</group>
 -->
 
+<!--
+		Mikhail Lavrenov: added the code below to show cobblestone and sett surface with thick red dashed line
+-->
 		<renderingAttribute name="surfaceCobblestoneColor">
 			<case attrColorValue="#FF0000"/>
 		</renderingAttribute>
@@ -1170,9 +1173,6 @@
 				<case minzoom="16" strokeWidth_3="8:4" />
 			</case>
 		</renderingAttribute>
-<!--
-				<apply pathEffect="4_2_2_2" pathEffect_0="4_2_2_2" pathEffect_1="4_2_2_2" pathEffect_2="4_2_2_2" pathEffect_3="4_2_2_2" pathEffect_4="4_2_2_2" pathEffect_5="4_2_2_2" />
--->
 
 	</line>
 
